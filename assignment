@@ -1,0 +1,36 @@
+#Read 2 variables, named A and B and make the sum of these two variables, assigning its result to the variable X. Print X.
+
+A = int(input("Enter your number: "))
+B = int((input("Enter your another number:  ")))
+X = A + B
+print("the sum of these two variables " + str(X))
+
+
+#The formula to calculate the area of a circumference is defined as A = π . R2. Considering this problem that π = 3.14159. Calculate the area using the formula given in the problem description
+
+R2 = float(input())
+π = 3.14159
+A = π*(R2*R2)
+print(A)
+
+
+
+#Read two floating points' values of double precision A and B, corresponding to two student's grades. After this, calculate the student's average, considering that grade A has weight 3.5 and B has weight 7.5. Each grade can be from zero to ten, always with one digit after the decimal point.
+
+A = float(input())
+B = float(input())
+average = ((A*3.5) + (B*7.5)) / (3.5+7.5)
+print("value= %.5f" % average)
+
+
+#Read three values (variables A, B and C), which are the three student's grades. Then, calculate the average, considering that grade A has weight 2, grade B has weight 3 and the grade C has weight 5. Consider that each grade can go from 0 to 10.0, always with one decimal place
+
+A = float(input())
+
+B = float(input())
+
+C = float(input())
+
+average = (A/10 *2) + (B/10 *3) + (C/10 *5)
+
+print(average)
