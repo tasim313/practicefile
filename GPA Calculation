@@ -1,0 +1,22 @@
+result = float(input('Enter exam mark: '))
+total = float(1)
+if result >=80:
+    print("congratulations! your grade A+")
+elif result >=70:
+    total = 80 - result
+    print("Well done ! your grade A, you missed A+ grade for "+ str(total) +" marks")
+elif result >=60:
+    total = 70 - result
+    print("Good! your grade A-, you missed A grade for"+ str(total) +" marks")
+elif result >=50:
+    total = 60 - result
+    print("Well try! your grade B, you missed A- grade for"+ str(total) +" marks")
+elif result >=40:
+    total = 50 - result
+    print("Poor result! your grade C, you missed B  gradefor"+ str(total) +" marks")
+elif result>=33:
+    total = 40 - result
+    print("Very poor result! your grade D , you missed C grade for"+ str(total) +" marks")
+else :
+    total =33 - result
+    print("Unfortunately! Your grade F   failed in exam, you need "+str(total)+ "  marks to pass in exam")
